@@ -29,7 +29,12 @@ function divideNumeros(numero1, numero2) {
 const resultadoDivision = divideNumeros(35, 5);
 console.log(resultadoDivision);
 
-
+//Ejercicio 5
+function elevarPotencia(base, exponente) {
+    return Math.pow(base, exponente);
+}
+const resultadoPotencia = elevarPotencia(5, 3);
+console.log(resultadoPotencia); 
 
 
 
