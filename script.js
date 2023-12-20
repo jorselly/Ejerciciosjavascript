@@ -50,6 +50,19 @@ function obtenerLongitudCadena(cadena) {
 const longitud = obtenerLongitudCadena("Hola, mundo!");
 console.log(longitud);
 
+// Ejercicio 8
+function convertirAMayusculas(cadena) {
+    return cadena.toUpperCase();
+}
+const cadenaMayusculas = convertirAMayusculas("Hola, mundo!");
+console.log(cadenaMayusculas);
+
+//Ejercicio 9
+function convertirAMinusculas(cadena) {
+    return cadena.toLowerCase();
+}
+const cadenaMinusculas = convertirAMinusculas("Hola, Mundo!");
+console.log(cadenaMinusculas); 
 
 
 
