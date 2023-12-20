@@ -43,6 +43,15 @@ function concatenarCadenas(cadena1, cadena2) {
 const resultadoConcatenacion = concatenarCadenas("Hola, ", "mundo javaScript");
 console.log(resultadoConcatenacion);
 
+//Ejercicio 7
+function obtenerLongitudCadena(cadena) {
+    return cadena.length;
+}
+const longitud = obtenerLongitudCadena("Hola, mundo!");
+console.log(longitud);
+
+
+
 
 
 
