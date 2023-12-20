@@ -13,7 +13,7 @@ function restaNumeros(numero1, numero2) {
     return numero1 - numero2;
 }
 const resultadoResta = restaNumeros(8, 3);
-console.log(resultadoResta); 
+console.log(resultadoResta);
 
 //Ejercicio 3
 function multiplicaNumeros(numero1, numero2) {
@@ -34,7 +34,7 @@ function elevarPotencia(base, exponente) {
     return Math.pow(base, exponente);
 }
 const resultadoPotencia = elevarPotencia(5, 3);
-console.log(resultadoPotencia); 
+console.log(resultadoPotencia);
 
 //Ejercicio 6
 function concatenarCadenas(cadena1, cadena2) {
@@ -62,7 +62,19 @@ function convertirAMinusculas(cadena) {
     return cadena.toLowerCase();
 }
 const cadenaMinusculas = convertirAMinusculas("Hola, Mundo!");
-console.log(cadenaMinusculas); 
+console.log(cadenaMinusculas);
+
+//Ejercicio 10
+function obtenerCaracterEnPosicion(cadena, indice) {
+
+    if (indice >= 0 && indice < cadena.length) {
+        return cadena.charAt(indice);
+    } else {
+        return "Índice fuera de los límites de la cadena.";
+    }
+}
+const caracterEnPosicion = obtenerCaracterEnPosicion("Hola, mundo!", 3);
+console.log(caracterEnPosicion); 
 
 
 
