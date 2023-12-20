@@ -76,6 +76,13 @@ function obtenerCaracterEnPosicion(cadena, indice) {
 const caracterEnPosicion = obtenerCaracterEnPosicion("Hola, mundo!", 3);
 console.log(caracterEnPosicion); 
 
+//Ejercicio 11
+function sumarElementosArray(array) {
+    return array.reduce((acumulador, numero) => acumulador + numero, 0);
+}
+const numeros = [1, 2, 3, 4, 5];
+const suma = sumarElementosArray(numeros);
+console.log(suma); 
 
 
 
