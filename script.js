@@ -22,6 +22,18 @@ function multiplicaNumeros(numero1, numero2) {
 const resultadoMultiplicacion = multiplicaNumeros(8, 8);
 console.log(resultadoMultiplicacion);
 
+//Ejercicio 4
+function divideNumeros(numero1, numero2) {
+    return numero1 / numero2;
+}
+const resultadoDivision = divideNumeros(35, 5);
+console.log(resultadoDivision);
+
+
+
+
+
+
 
 
 
