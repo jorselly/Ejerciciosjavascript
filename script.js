@@ -36,6 +36,12 @@ function elevarPotencia(base, exponente) {
 const resultadoPotencia = elevarPotencia(5, 3);
 console.log(resultadoPotencia); 
 
+//Ejercicio 6
+function concatenarCadenas(cadena1, cadena2) {
+    return cadena1 + cadena2;
+}
+const resultadoConcatenacion = concatenarCadenas("Hola, ", "mundo javaScript");
+console.log(resultadoConcatenacion);
 
 
 
